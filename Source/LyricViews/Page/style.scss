@@ -965,6 +965,7 @@ body:has(.BeautifulLyricsPage.Fullscreen) {
 				}
 
 				&.ControlsVisible {
+					position: relative;
 					--AddToPlaylistOpacity: 1;
 					--ViewControlsOpacity: 1;
 					--LikeStateOpacity: 0.9;
@@ -1085,12 +1086,11 @@ body:has(.BeautifulLyricsPage.Fullscreen) {
 					height: 0.65cqh;
 				}
 			}
-
 			.SliderBar {
 				--TraveledColor: rgb(255 255 255 / 90%);
 				--RemainingColor: rgb(255 255 255 / 38%);
 				--SliderProgress: 0.6;
-
+				position: relative;
 				width: auto;
 				flex-grow: 1;
 				border-radius: 100cqw;
