@@ -963,7 +963,7 @@ body:has(.BeautifulLyricsPage.Fullscreen) {
 
 					filter: hue-rotate(var(--CoverArtHueShift));
 				}
-
+				
 				&.ControlsVisible {
 					position: relative;
 					--AddToPlaylistOpacity: 1;
@@ -973,7 +973,6 @@ body:has(.BeautifulLyricsPage.Fullscreen) {
 					--VolumeControlOpacity: 0.85;
 					--ImageDarkness: 0.5;
 					--ImageTransparency: 0.25;
-
 					--AddToPlaylistOpenProgress: 0;
 					--HoverMultiplier: calc(
 						0.5
@@ -1098,10 +1097,8 @@ body:has(.BeautifulLyricsPage.Fullscreen) {
 					90deg,
 					var(--TraveledColor) 0px, var(--TraveledColor) calc(100% * var(--SliderProgress)),
 					var(--RemainingColor) calc(100% * var(--SliderProgress)), var(--RemainingColor)
-				);
-				
+				);				
 				container-type: size;
-
 				.Hitbox {
 					cursor: pointer;
 
